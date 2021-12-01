@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 ###########################################################
 # My solutions to Advent of Code 2021
 #
@@ -71,3 +73,45 @@ measurement.
 
 How many measurements are larger than the previous measurement?
 """
+
+import doctest
+import time
+
+
+def count_larger_measurements(measurements: [int]) -> int:
+    """Count how many measurements are larger than the previous measurement in
+    a list of measurements.
+
+    Parameters
+    ----------
+    measurements : [int]
+        List of measurements to count in.
+
+    Returns
+    -------
+    int
+        The resultant count.
+
+    Examples
+    --------
+    >>> count_larger_measurements([199, 200, 208, 210, 200, 207, 240, 269, 260, 263, ])
+    7
+    """
+    count = 0
+    for i in range(len(measurements) - 1):
+        if measurements[i] < measurements[i + 1]:
+            count += 1
+    return count
+
+
+if __name__ == "__main__":
+    doctest.testmod()
+
+    with open("input.txt") as f:
+        measurements = [int(line) for line in f.readlines()]
+
+    time0 = time.time()
+    larger_measurements = count_larger_measurements(measurements)
+    timef = time.time()
+
+    print(f"Solution: {larger_measurements}. Time: {timef-time0:.8f}")
