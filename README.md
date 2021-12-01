@@ -3,11 +3,11 @@ My solutions to the Advent of Code 2021
 
 *Author: Borja González-Seoane*
 
-This repository contains my particular solutions for the Advent of Code 2021 event. For more information, please consult the event website \[[1]\].
+This repository contains my particular solutions for the Advent of Code 2021 event. For more information, consult the event website \[[1]\].
 
 >Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other. \[[1]\]
 
-This year I have decided to solve the exercises using Python. Each directory in this repository contains the solutions for a specific day. I am using Python 3.9.0 and I will left the requirements, if any, in the `requirements.txt` file.
+This year I have decided to solve the puzzles using Python. Each directory in this repository will contain the solution for a specific day. I am using Python 3.9.0 and I will left the requirements, if any, in the `requirements.txt` file.
 
 
 ## Advent checklist
