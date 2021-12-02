@@ -15,7 +15,7 @@ This year I have decided to solve the puzzles using Python. Each directory in th
 | Day | Result |
 | --- | ------ |
 |  1  |   **   |
-|  2  |        |
+|  2  |   **   |
 |  3  |        |
 |  4  |        |
 |  5  |        |
