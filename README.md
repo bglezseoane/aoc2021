@@ -12,11 +12,13 @@ This year I have decided to solve the puzzles using Python. Each directory in th
 
 ## Advent checklist
 
+Each day two puzzles are published. Two stars means that the two are resolved, one means that only the first part is, and none means that no puzzle was completed for that day.
+
 | Day | Result |
 | --- | ------ |
 |  1  |   **   |
 |  2  |   **   |
-|  3  |        |
+|  3  |   *    |
 |  4  |        |
 |  5  |        |
 |  6  |        |
